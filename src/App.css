@@ -1,0 +1,53 @@
+.app-container{
+  display: flex;
+}
+
+.content{
+  width: 100%;
+  
+  
+}
+.sidebar{
+  min-height: 700px;
+}
+.openbtn{
+  position: absolute;
+  cursor: pointer;
+  height: min-content;
+}
+.post-card{
+ 
+  margin: 20px 50px;
+  width: 20rem ;
+  
+}
+.reactions {
+  width: 70%;
+  margin: 15px 0 0 ;
+}
+.create-post{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-img-top{
+  position: relative;
+  left: 13%;
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+ 
+}
+
+.spinner{
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+}
